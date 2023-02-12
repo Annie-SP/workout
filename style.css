@@ -353,3 +353,21 @@
     padding-bottom: 24px;
     color: rgba(239, 237, 232, 0.65);
 }
+
+
+/* MEMBERSHIP */
+.membership{
+    margin: 100px 80px;
+}
+
+.membership__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.membership__block{
+    width: 538px;
+    height: 640px;   
+    background-color: #232532;
+}
