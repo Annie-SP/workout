@@ -27,6 +27,56 @@
 .bb2{
     border: 2px solid red;
 }
+/* strelochka */
+.link__block{
+    display: flex;
+    justify-content: start;
+    /* display: block; */
+    padding-top: 112px;
+    margin-top: 28px;
+    margin-left: 68px;
+}
+
+
+.arrow-1 {
+    cursor: pointer;
+    position: relative;
+    width: 25px;
+    height: 40px;
+}
+.arrow-1 span {
+    position: relative;
+    display: block;
+    top: 20px;
+    left:0;
+    width: 22px;
+    height: 1.45px;
+    background-color: #FAFAF9;
+    border-radius: 0 50px 50px 0;    
+}
+
+.arrow-1 span::after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 1.45px;
+    top: -4.75px;
+    right: -1px;
+    background-color: #FAFAF9;
+    transform: rotate(45deg);
+}
+
+.arrow-1 span::before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 1.45px;
+    top: 4.75px;
+    right: -1px;
+    background-color: #FAFAF9;
+    transform: rotate(-45deg);
+}
+
 /* HEADER */
 
 .header{
@@ -418,10 +468,7 @@
 }
 
 .membership__link{
-    display: block;
-    padding-top: 112px;
-    margin-top: 28px;
-    margin-left: 68px;
+    
     text-decoration: none;
     color: #0070C9;
 }
