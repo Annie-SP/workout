@@ -136,7 +136,7 @@
 }
 
 .promo__video_image{
-    padding: 30px 23px;
+    padding: 20px 23px;
 }
 
 .promo__video_image::after{
@@ -159,18 +159,6 @@
     border-radius: 100%;
     background-color: #EF8963;
     border: 0 solid transparent;
-}
-
-.mini__block_video__text{
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.promo__mini__block__text{
-    font-size: 16px;
-    line-height: 16px;
-    padding-top: 8px;
-    color: rgba(239, 237, 232, 0.65);
 }
 
 .mini__block_videofree{
