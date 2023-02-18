@@ -31,7 +31,7 @@
 
 .header{
     margin: 49px 64px;
-    width: 1312px;
+    /* width: 1312px; */
 }
 
 .header__block__title{
@@ -75,8 +75,8 @@
 
 .promo__wrapper{
     position: relative;
-    width: 1255px;
-    margin-left: 141px;
+    /* width: 1255px; */
+    padding-left: 141px;
 }
 
 .promo__title {
@@ -136,14 +136,14 @@
 }
 
 .promo__video_image{
-    padding: 20px 23px;
+    padding: 30px 23px;
 }
 
 .promo__video_image::after{
     content:'';
     position: absolute;
     left: 38px;
-    top: 30px;
+    top: 40px;
     width: 0;
     height: 0;
     border: 0 solid transparent;
@@ -161,12 +161,29 @@
     border: 0 solid transparent;
 }
 
+.mini__block_video__text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.promo__mini__block__text{
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: rgba(239, 237, 232, 0.65);
+}
+
 .mini__block_videofree{
     top: 502px;
     left: 1062px;
     background-color: #7a29dc;
     width: 193px;
     height: 98px; 
+}
+.mini__block_videofree__text{
+    padding-left: 24px;
+    padding-top: 0;
+    font-size: 13px;
 }
 
 .mini__block_desc{
@@ -180,6 +197,13 @@
     font-size: 48px;
     font-weight: 600;
     letter-spacing: 0.5px;
+}
+
+.promo__block_videofree__text{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 24px;
+    padding-top: 17px;
 }
 
 .promo__block__text span{
@@ -358,16 +382,73 @@
 /* MEMBERSHIP */
 .membership{
     margin: 100px 80px;
-}
 
+}
+.membership__title{
+    margin-bottom: 32px;
+}
+.membership__line{
+    margin-bottom: 32px;
+}
 .membership__wrapper{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    width: 1155px;
+    margin: 0 auto;
 }
 
 .membership__block{
     width: 538px;
     height: 640px;   
     background-color: #232532;
+    
 }
+
+.membership__block__title{
+    padding-top: 71px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.membership__block__text{
+    padding-top: 34px;
+    padding-left: 68px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.membership__block__list{
+    padding-top: 16px;
+    padding-left: 88px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(239, 237, 232, 0.65);
+
+}
+
+.membership__link{
+    display: block;
+    padding-top: 112px;
+    margin-top: 28px;
+    margin-left: 68px;
+    text-decoration: none;
+    color: #0070C9;
+}
+
+.membership__btn{
+    display: block;
+    margin-top: 28px;
+    margin-left: 68px;
+    background-color: #0070C9;
+    border: 0px;
+    color: #FAFAF9;
+    font-size: 16px;
+    line-height: 22px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
