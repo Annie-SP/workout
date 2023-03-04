@@ -9,11 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
 </head>
 <body class="body__main">
     <!-- header -->
     <header class="header">
         <div class="container">
+            <div class="header__wrapper">
+
+            
             <div class="header__block__title">
             <p class="header__block__logo">Workout</p>
         
@@ -27,11 +31,14 @@
                         <li class="nav__list__item"> <a class="nav__list__link" href="#"> About</a></li>
                         <li class="nav__list__item"> <a class="nav__list__link" href="#"> Store</a></li>
                 </ul>
-                <div class="nav__block">
-
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </nav>
         </div>
+    </div>
     </div>
 </header>
    <!-- main -->
@@ -42,7 +49,7 @@
                 <h2 class="promo__title">Workout <br> with me</h2>
                 <img class="promo__img" width="409px" src="./img/man.png" alt="">
                 
-                <div class="promo__mini_block mini__block_km  bb">      
+                <div class="promo__mini_block mini__block_km">      
                     <div class="promo__block-image" >
                         <img src="./img/челавечок.png" alt="running">
                     </div>              
@@ -63,9 +70,11 @@
                     <p class="promo__mini__block__text mini__block_videofree__text"><span>Free Workout Videos</span></p>
                 </div>
                 
-        
+        <DIV class="promo__block_btn">
             <p class="promo__text">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit</p>
             <button class="promo__btn">Join Club Now</button>
+        </DIV>
+
         
         <div class="promo__futurein">
             <p class="promo__futurein__text">As featured in</p>
@@ -82,66 +91,76 @@
 
 </section>
 
-    <section class="programs">
-        <div class="container programs__wrapper">
-            <h2 class="programs__title">Not sure where to start</h2>
-            <p class="programs__title__text">Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
-       <div class="programs__list">
-            <div class="programs__block">
-                <h3 class="programs__block__title">Workout Videos</h3>
-                <p class="programs__block__text">Access to hundreds of free, <br> full-length workout videos.</p>
-                <div class="arrow-1">
-                    <span></span>
-                </div>
-            </div>
-            <div class="programs__block">
-                <h3 class="programs__block__title">Workout Programs</h3>
-                <p class="programs__block__text">Affordable and effective <br> workout programs.</p>
+    <!-- <section class="programs">
+        <div class="container">
+            <div class="programs__wrapper">
+                <h2 class="programs__title">Not sure where to start</h2>
+                <p class="programs__title__text">Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
+           <div class="programs__list">
+                <div class="programs__block">
+                    <h3 class="programs__block__title">Workout Videos</h3>
+                    <p class="programs__block__text">Access to hundreds of free, <br> full-length workout videos.</p>
                     <div class="arrow-1">
-                    <span></span>
+                        <span></span>
+                    </div>
                 </div>
-            </div>
-            <div class="programs__block">
-                <h3 class="programs__block__title">Meal Plans</h3>
-                <p class="programs__block__text">Plans built with registered <br> dietitians and nutritionists.</p>
-                <div class="arrow-1">
-                    <span></span>
+                <div class="programs__block">
+                    <h3 class="programs__block__title">Workout Programs</h3>
+                    <p class="programs__block__text">Affordable and effective <br> workout programs.</p>
+                        <div class="arrow-1">
+                        <span></span>
+                    </div>
                 </div>
-            </div>
-            <div class="programs__block">
-                <h3 class="programs__block__title">WO Plus ALL ACCESS</h3>
-                <p class="programs__block__text">Add powerful features to <br> your membership. </p>
-                <div class="arrow-1">
-                    <span></span>
+                <div class="programs__block">
+                    <h3 class="programs__block__title">Meal Plans</h3>
+                    <p class="programs__block__text">Plans built with registered <br> dietitians and nutritionists.</p>
+                    <div class="arrow-1">
+                        <span></span>
+                    </div>
                 </div>
-            </div>
-        </div>      
+                <div class="programs__block">
+                    <h3 class="programs__block__title">WO Plus ALL ACCESS</h3>
+                    <p class="programs__block__text">Add powerful features to <br> your membership. </p>
+                    <div class="arrow-1">
+                        <span></span>
+                    </div>
+                </div>
+            </div>      
+        </div>        
     </div>
 </section>
-
 <section class="blog">
     <div class="container">
         <div class="blog__wrapper">
-            <div class="blog__item ">
+            <div class="blog__item blog__item_first">
                 <div class="blog__item__descr">
-                    <h3 class="blog__item__title">Work out at home for free. </h3>
+                    <h2 class="blog__item__title">Work out at home for free. </h2>
                     <p class="blog__item__text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most positive communities on the web, you’ll have everything you need to reach your personal fitness goals – for free!</p>  
-                    <a href=""> See more</a>   
+                    <div class="link_arr">
+                        <a class="blog__item__link"  href="#"> See more</a>   
+                        <div class="arrow-1 ">
+                            <span></span>
+                        </div>
+                    </div> 
                 </div>
                 <img class="blog__item__img" src="./img/Mask Group.png" alt="">
             </div>
             <div class="blog__item blog__item_next">
-                <div class="blog__item__descr">
-                    <h3 class="blog__item_next__title">Get more with low-cost training programs and advanced features.</h3>
+                <div class="blog__item_next__descr">
+                    <h2 class="blog__item_next__title">Get more with low-cost training programs and advanced features.</h2>
                     <p class="blog__item__text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts, healthy recipes and informative articles, as well as one of the most positive communities on the web, you’ll have everything you need to reach your personal fitness goals – for free!</p>  
-                    <a href=""> See more</a>   
+                    <div class="link_arr">
+                        <a class="blog__item__link"  href="#"> See more</a>   
+                        <div class="arrow-1 ">
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
                  <img class="blog__item__img" src="./img/Mask Group (1).png" alt="">
             </div>
         </div>
     </div>
 </section>
-
 <section class="membership">
     <div class="container membership__container">
         <h2 class="membership__title">Membership</h2>
@@ -158,14 +177,12 @@
                     <li>Positive and Supportive Online Community</li>
                     <li>No Credit Card Neededr</li>
                 </ul>
-                <div class="link__block">
-                    <a class="membership__link" href="#"> See more</a>
-
-                    <div class="arrow-1">
-                        <span></span>
+                <div class="link_arr">
+                        <a class="blog__item__link"  href="#"> See more</a>   
+                        <div class="arrow-1 ">
+                            <span></span>
+                        </div>
                     </div>
-                    
-                </div>
                 
             </div>
             
@@ -189,7 +206,8 @@
         </div>        
     </div>
 </section> 
-   
+    -->
     <button class="end__btn">Back to Top</button>
+    <script src="./js/script.js"></script>
 </body>
 </html>
